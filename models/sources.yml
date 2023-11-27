@@ -1,0 +1,22 @@
+sources:
+  - name: airbnb
+    database: fivetran_database  
+    schema: mongo_sample_airbnb  
+    tables:
+      - name: listings_and_reviews
+  - name: restaurants
+    database: fivetran_database  
+    schema: mongo_sample_restaurants  
+    tables:
+      - name: neighborhoods
+      - name: restaurants
+  - name: supplies
+    database: fivetran_database  
+    schema: mongo_sample_supplies  
+    tables:
+      - name: sales
+  - name: weatherdata
+    database: fivetran_database  
+    schema: mongo_sample_weatherdata  
+    tables:
+      - name: data
